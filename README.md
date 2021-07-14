@@ -4,7 +4,7 @@
 
 > **👨🏻‍💻 개발자 : 권희성**
 
-<br><br>
+<br>
 
 ---
 
@@ -16,8 +16,7 @@
 
 [![link](https://t1.daumcdn.net/cfile/tistory/246D443E53575CCF11)](https://www.youtube.com/watch?v=PDkA2Cp53JU)
 
-<br><br>
-
+<br>
 ---
 
 #### 1️⃣ 사용 스택 및 세팅
