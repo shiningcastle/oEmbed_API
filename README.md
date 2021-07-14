@@ -17,6 +17,7 @@
 [![link](https://t1.daumcdn.net/cfile/tistory/246D443E53575CCF11)](https://www.youtube.com/watch?v=PDkA2Cp53JU)
 
 <br>
+
 ---
 
 #### 1️⃣ 사용 스택 및 세팅
@@ -31,7 +32,7 @@
 
 - <a href ="https://java119.tistory.com/5">이클립스 UTF-8 세팅</a> <br>
 
-<br><br>
+<br>
 
 ---
 
@@ -55,7 +56,7 @@
 
 - 간단한 테스팅(JUnit5) 및 로깅
 
-<br><br>
+<br>
 
 3. **Vue.js** <br><br>
 
