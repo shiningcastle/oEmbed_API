@@ -4,7 +4,7 @@
 
 > **👨🏻‍💻 개발자 : 권희성**
 
-<br><br>
+<br>
 
 ---
 
@@ -16,7 +16,7 @@
 
 [![link](https://t1.daumcdn.net/cfile/tistory/246D443E53575CCF11)](https://www.youtube.com/watch?v=PDkA2Cp53JU)
 
-<br><br>
+<br>
 
 ---
 
@@ -32,7 +32,7 @@
 
 - <a href ="https://java119.tistory.com/5">이클립스 UTF-8 세팅</a> <br>
 
-<br><br>
+<br>
 
 ---
 
@@ -56,9 +56,9 @@
 
 - 간단한 테스팅(JUnit5) 및 로깅
 
-<br><br>
+<br>
 
-3. **Vue.js** <br><br>
+2. **Vue.js** <br><br>
 
 - 1차적으로 Input type으로 URL 형태 입력 검증
 
