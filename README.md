@@ -58,7 +58,7 @@
 
 <br>
 
-3. **Vue.js** <br><br>
+2. **Vue.js** <br><br>
 
 - 1차적으로 Input type으로 URL 형태 입력 검증
 
