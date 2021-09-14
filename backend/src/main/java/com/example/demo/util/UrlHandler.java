@@ -21,30 +21,27 @@ public class UrlHandler {
 
 	public boolean isValidUrl(String url) {
 		// 문자열이 유효한 url이면 true
-		boolean result = (urlValidator.isValid(url)) ? true : false;
-		// 예외처리
-		if (!result) {
-			logger.error("유효하지 않은  url 요청시도 : {}", url);
+		if (!urlValidator.isValid(url)) {
+			logger.error("유효하지 않은 URL : {}", url);
 			throw new UrlException("유효하지 않은 주소입니다.");
 		}
-		logger.info("유효한 url 요청시도 : {}", url);
-		return result;
+		logger.info("유효한 URL : {}", url);
+		return true;
 	}
 
-	public String getProviderUrl(String url) throws MalformedURLException {
-		// 해당 주소에서 Host 주소 부분만 뽑아내기
+	public String getProviderUrl(String url) {
+		// 해당 주소에서 Host 주소 부분만 추출
 		String hostUrl = null;
 		try {
 			hostUrl = new URL(url).getHost();
 		} catch (MalformedURLException e) {
-			logger.error("{} Host 주소 반환 불가 - {} : {}", e, e.getMessage());
-			throw new MalformedURLException("해당 주소의 Provider를 조회할 수 없습니다.");
+			logger.error("유효하지 않은 Host : {}", url);
 		}
 		// 예외처리
 		if (hostUrl == null) {
 			throw new UrlException("Provider가 불분명한 주소입니다.");
 		}
-		logger.info("유효한 Provider 판별 : {}", url);
+		logger.info("유효한 HOST : {}", hostUrl);
 		return hostUrl;
 	}
 }

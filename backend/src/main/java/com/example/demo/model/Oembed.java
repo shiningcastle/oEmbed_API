@@ -1,8 +1,10 @@
 package com.example.demo.model;
 
 import org.apache.http.HttpResponse;
-import org.apache.http.client.ClientProtocolException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public abstract class Oembed  {
-	abstract public HttpResponse getOembedInfo(String url) throws ClientProtocolException;
+	final Logger logger = LoggerFactory.getLogger(this.getClass());
+	abstract public HttpResponse getOembedInfo(String url);
 }

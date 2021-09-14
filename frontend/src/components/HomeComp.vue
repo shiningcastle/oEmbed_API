@@ -132,12 +132,12 @@ export default {
       axios
         .get("http://localhost:8000/oembed/?url=" + this.url)
         .then((response) => {
-          if (response.status == 200) {
+          if (response.data.status == "err") {
+            alert(response.data.msg);
+          } else {
             this.data = response.data;
             this.provider = response.headers.provider;
             this.url = "";
-          } else {
-            alert(response.data.errMsg);
           }
         })
         .catch(() => {

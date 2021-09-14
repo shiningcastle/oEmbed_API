@@ -6,10 +6,18 @@ server:
       charset: UTF-8
       enabled: true
       force: true
+
 spring:
   mvc:
     converters:
       preferred-json-mapper: gson
+
+url:
+  instagram: "https://api.instagram.com/oembed?url="
+  twitter: "https://publish.twitter.com/oembed?url="
+  vimeo: "https://vimeo.com/api/oembed.json?url="
+  youtube: "https://www.youtube.com/oembed?url="
+
 logging:
   pattern:
     file: "[%d{HH:mm:ss.SSS}][%-5level][%logger.%method:line%line] - %msg%n"
